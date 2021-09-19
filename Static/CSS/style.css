@@ -1,0 +1,222 @@
+/* #bar
+g.yaxislayer-above {
+    font-weight: bold;
+    color:#372c14;
+    font-family: Arial;
+    font-size: 16px;
+}; */
+
+/* #bar
+g.xaxislayer-above {
+    font-weight: 900;
+    color:#372c14;
+    font-family: "Arial";
+    font-size: 16px;
+}; */
+
+/* #bubble
+g.yaxislayer-above {
+    font-weight: bold;
+    /* color:#372c14;
+    font-family: Arial;
+    font-size: 16px;
+};
+
+/* #bubble
+g.xaxislayer-above {
+    font-weight: 900;
+    /* color:#372c14;
+    font-family: "Arial";
+    font-size: 16px;
+}; */
+
+
+/* #bubble > div > div > svg:nth-child(1) > g.cartesianlayer > g > g.xaxislayer-above > g:nth-child() {
+    font-weight: 900;
+    color:#372c14;
+    font-family: "Arial";
+    font-size: 16px;
+}; */
+
+/* #bubble > div > div > svg:nth-child(1) > g.cartesianlayer > g > g.yaxislayer-above > g:nth-child() {
+    font-weight: bold;
+    color:#372c14;
+    font-family: Arial;
+    font-size: 16px;
+}; */
+body {
+    background-image: url('Bacteria_Light1.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+body > div > div:nth-child(1) > div > h1 {
+    font-size: 80px; 
+    font-weight: 900;
+    color:#372c14;
+    font-family: Arial;
+}
+
+body > div > div:nth-child(1) > div > p {
+    font-size: 30px; 
+    font-weight: 900;
+    color:#372c14;
+    font-family: Arial;
+}
+
+#bar > div > div > svg:nth-child(1) > g.cartesianlayer > g > g.yaxislayer-above 
+    g:nth-child(1) > text {
+    font-weight: 900;
+    color:#372c14;
+    font-family: "Arial";
+    font-size: 16px;
+    }
+
+#bar > div > div > svg:nth-child(1) > g.cartesianlayer > g > g.xaxislayer-above 
+    g:nth-child(1) > text {
+    font-weight: 900;
+    color:#372c14;
+    font-family: "Arial";
+    font-size: 16px;
+    }
+
+#bubble > div > div > svg:nth-child(1) > g.cartesianlayer > g > g.xaxislayer-above 
+    g:nth-child(1) > text {
+    font-weight: 900;
+    color:#372c14;
+    font-family: "Arial";
+    font-size: 16px;
+    }
+
+#bubble > div > div > svg:nth-child(1) > g.cartesianlayer > g > g.yaxislayer-above 
+    g:nth-child(1)> text {
+        font-weight: 900;
+        color:#372c14;
+        font-family: "Arial";
+        font-size: 20px;
+    }
+    g:nth-child(2)> text {
+        font-weight: 900;
+        color:#372c14;
+        font-family: "Arial";
+        font-size: 20px;
+    }
+    g:nth-child(3)> text {
+        font-weight: 900;
+        color:#372c14;
+        font-family: "Arial";
+        font-size: 20px;
+    }
+    g:nth-child(4)> text {
+        font-weight: 900;
+        color:#372c14;
+        font-family: "Arial";
+        font-size: 20px;
+    }
+    g:nth-child(5)> text {
+        font-weight: 900;
+        color:#372c14;
+        font-family: "Arial";
+        font-size: 20px;
+    }
+    g:nth-child(6)> text {
+        font-weight: 900;
+        color:#372c14;
+        font-family: "Arial";
+        font-size: 20px;
+    }
+    g:nth-child(7)> text {
+        font-weight: 900;
+        color:#372c14;
+        font-family: "Arial";
+        font-size: 20px;
+    }
+    g:nth-child(8)> text {
+        font-weight: 900;
+        color:#372c14;
+        font-family: "Arial";
+        font-size: 20px;
+    }
+    g:nth-child(9)> text {
+        font-weight: 900;
+        color:#372c14;
+        font-family: "Arial";
+        font-size: 20px;
+    }
+    g:nth-child(10)> text {
+        font-weight: 900;
+        color:#372c14;
+        font-family: "Arial";
+        font-size: 20px;
+    }
+    g:nth-child(11)> text {
+        font-weight: 900;
+        color:#372c14;
+        font-family: "Arial";
+        font-size: 20px;
+    }
+    g:nth-child(12)> text {
+        font-weight: 900;
+        color:#372c14;
+        font-family: "Arial";
+        font-size: 20px;
+    }
+
+.well {
+    background-color: #8a6d3b;
+    font-size: 20px; 
+    font-weight: 900;
+    color:#372c14;
+    font-family: Arial;
+}
+
+h5 {
+    font-size: 18px; 
+    font-weight: 900;
+    color:#372c14;
+    font-family: Arial;
+}
+
+.panel.panel-primary {
+    background-color: #8a6d3b;
+    font-size: 20px; 
+    font-weight: 900;
+    color:#372c14;
+    font-family: Arial;
+    }
+    .panel-title {
+        /* background-color: #8a6d3b; */
+        font-size: 20px; 
+        font-weight: 900;
+        color:#372c14;
+        font-family: Arial;
+    }
+h6 {
+    font-size: 18px; 
+    font-weight: 900;
+    color:#372c14;
+    font-family: Arial;
+}
+.panel-heading {
+    background-color: #8a6d3b;
+    font-size: 20px; 
+    font-weight: 900;
+    color:#372c14;
+    font-family: Arial;
+}
+
+    /* -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.42857143;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Arial;
+    color: #8a6d3b;
+    background-color: #337ab7;
+    border-color: #337ab7; */
