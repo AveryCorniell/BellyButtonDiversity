@@ -1,14 +1,2 @@
-FROM node:18
-# Create app directory
-WORKDIR /opt/docker/bellybutton-app
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
-COPY samples.json ./
-RUN npm install
-# If you are building your code for production
-# RUN npm ci --omit=dev
-# Bundle app source
-COPY . .
-EXPOSE 8080
-CMD [ "node", "server.js" ]
+FROM httpd:2.4
+COPY . /usr/local/apache2/htdocs/
