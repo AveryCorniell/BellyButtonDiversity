@@ -1,0 +1,15 @@
+---
+- hosts: ansible
+
+  tasks:
+    - name: clone repository
+      git:
+        repo: https://github.com/AveryCorniell/BellyButtonDiversity.git
+        dest: /opt/docker/bellybutton-app
+        clone: yes
+        update: yes
+
+    - name: create docker image
+      command: docker build -t bellybutton-app:latest /opt/docker/bellybutton-app
+      args:
+        chdir: /opt/docker/
