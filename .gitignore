@@ -1,4 +1,4 @@
 .*
 !.gitignore
 .vscode/launch.json
-.bellybutton-app.yml
+bellybutton-app.yml
