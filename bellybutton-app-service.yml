@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: kub-bellybutton-service
+  labels:
+    bellybutton-app
+spec:
+  selector:
+    app: bellybutton-app
+
+  ports:
+    - port: 80
+      targetPort: 80
+
+  type: LoadBalancer

@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kub-bellybutton-app
+  labels:
+    app: bellybutton-app
+
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: bellybutton-app
+
+  template:
+    metadata:
+      labels:
+        app: bellybutton-app
+    spec:
+      containers:
+      - name: bellybutton-app
+        image: averycorniell/bellybutton-app
+        imagePullPolicy: Always
+        ports:
+        - containerPort:80
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1  
